@@ -1,0 +1,6 @@
+{
+  "name": "NoUserLayout",
+  "version": "1.0.0",
+  "private": true,
+  "main": "NoUserLayout.tsx"
+}

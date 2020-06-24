@@ -1,0 +1,6 @@
+{
+  "name": "AccessRequestDetailsModal",
+  "version": "0.0.0",
+  "private": true,
+  "main": "AccessRequestDetailsModal.tsx"
+}

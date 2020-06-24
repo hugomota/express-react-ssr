@@ -1,0 +1,6 @@
+{
+  "name": "DialogTitle",
+  "version": "0.0.0",
+  "private": true,
+  "main": "DialogTitle.tsx"
+}

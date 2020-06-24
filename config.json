@@ -1,0 +1,44 @@
+{
+  "app": {
+    "port": 3000,
+    "host": "https://localhost",
+    "appSecret": "ec4a7c2f-87ef-4438-a6c4-2d8593a3b200",
+    "certificatesPath": "certificates/server",
+    "defaultUserRoles": ["SAST Scanner", "SAST Reviewer"],
+    "pwdEncKey": "bf3c199c2470cb477d907b1e0917c17b",
+    "recaptchaSiteKey": "6LfM4r8UAAAAABVDGPaB-hSl7meASCQVv7JZsENG"
+  },
+  "okta": {
+    "apiKey": "00Fr8yBArbjtgHQ8dRzIBp7N56Bqo_u9aesJnu-etb",
+    "clientId": "0oabr8muaql2fkfOR4x6",
+    "clientSecret": "y3sQ-yP_Fs7x7yLV8SbASjdxZcrHx9NhQguufjnA",
+    "orgUrl": "https://dev-870195.okta.com",
+    "issuer": "https://dev-870195.okta.com"
+  },
+  "cx": {
+    "host": "http://localhost/cxrestapi/auth",
+    "username": "hmota",
+    "password": "Amon9010!",
+    "clientSecret": "014DF517-39D1-4453-B7B3-9930C563627C"
+  },
+  "db": {
+    "host": "localhost\\SQLEXPRESS",
+    "port": 1433,
+    "database": "privateCloudDev",
+    "username": "dev",
+    "password": "dev"
+  },
+  "smtp": {
+    "host": "smtp.mailtrap.io",
+    "port": 25,
+    "from": "Cx Private Cloud - Customer Registration <privatecloud.staging@gmail.com>",
+    "username": "2e3869de35ea9c",
+    "password": "49caf57107195d"
+  },
+  "test": {
+    "idp": {
+      "username": "hugo.dpmota@gmail.com",
+      "password": "Cx123456!"
+    }
+  }
+}

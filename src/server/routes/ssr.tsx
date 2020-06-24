@@ -1,13 +1,12 @@
 import express from 'express'
-import App from '../components/app'
+import Registration from '../../pages/registrationForm'
 import React from 'react'
 import { renderToString } from 'react-dom/server'
 import hbs from 'handlebars'
 
 const ssrRoutes = express.Router()
 
-ssrRoutes.get('/', async (_req, res) => {
-  const theHtml = `
+const theHtml = `
   <html>
   <head><title>My First SSR</title></head>
   <body>
@@ -19,8 +18,9 @@ ssrRoutes.get('/', async (_req, res) => {
   </html>
   `
 
+ssrRoutes.get('/', async (_req, res) => {
   const hbsTemplate = hbs.compile(theHtml)
-  const reactComp = renderToString(<App />)
+  const reactComp = renderToString(<Registration />)
   const htmlToSend = hbsTemplate({ reactele: reactComp })
   res.send(htmlToSend)
 })

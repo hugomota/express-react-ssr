@@ -1,0 +1,6 @@
+{
+  "name": "AccessRequestDeclineModal",
+  "version": "0.0.0",
+  "private": true,
+  "main": "AccessRequestDeclineModal.tsx"
+}
